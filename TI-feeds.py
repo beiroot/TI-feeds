@@ -153,9 +153,6 @@ def feed_compare():
                 diff_f.writelines(line)
     return
 
-
-if __name__ == '__main__':
-
     # REGEX
     re1 = '(.*)'  # Any Character
     re2 = '(.)'  # Dot
@@ -171,6 +168,9 @@ if __name__ == '__main__':
                     "url_mal": "TI-URL-malware.txt",
                     "url_phish": "TI-URL-phishing.txt",
                 }
+
+
+if __name__ == '__main__':
 
     # Parse arguments
     argp = argparse.ArgumentParser()
